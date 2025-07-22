@@ -1,5 +1,5 @@
 packages:
-  - package: ScalefreeCOM/datavault4dbt
-    version: [">=1.0.0", "<2.0.0"]
+  - git: https://github.com/ScalefreeCOM/datavault4dbt.git
+    revision: 'add-dispatch-for-yaml-metadata-parser'
   - package: dbt-labs/dbt_utils
     version: 1.3.0
